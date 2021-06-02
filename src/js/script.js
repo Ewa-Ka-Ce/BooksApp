@@ -143,15 +143,15 @@
       let background = '';
 
       if (rating < 6) {
-        background = 'linear - gradient(to bottom,  #fefcea 0 %, #f1da36 100 %)';
+        background = 'linear-gradient(to bottom, #fefcea 0%, #f1da36 100%)';
       } else if (rating > 6 && rating <= 8) {
-        background = 'linear - gradient(to bottom, #b4df5b 0 %,#b4df5b 100 %)';
+        background = 'linear-gradient(to bottom, #b4df5b 0%, #b4df5b 100%)';
       } else if (rating > 8 && rating <= 9) {
-        background = 'linear - gradient(to bottom, #299a0b 0 %, #299a0b 100 %)';
+        background = 'linear-gradient(to bottom, #299a0b 0%, #299a0b 100%)';
       } else if (rating > 9) {
-        background = 'linear - gradient(to bottom, #ff0084 0 %,#ff0084 100 %)';
+        background = 'linear-gradient(to bottom, #ff0084 0%, #ff0084 100%)';
       }
-
+      console.log('background', background);
       return background;
 
     }
